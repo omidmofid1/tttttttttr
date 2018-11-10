@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>افتخار آذرین</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- remember, jQuery is completely optional -->
+</head>
+<body id="particles" style="font-family: 'iransans' !important;overflow-y: auto">
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-3" style="opacity: 0.7">
+        <div class="container">
+          <a class="navbar-brand" href="#">افتخار آذرین</a>
+          <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse" id="navbarNav" style="direction: rtl;">
+              <ul class="navbar-nav" style="direction: rtl;">
+                  <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">پنل</a>
+                    <div class="dropdown-menu text-right">
+                      <a href="#" class="dropdown-item">تنظیمات</a>
+                      <a href="#" class="dropdown-item">تغییر رمزعبور</a>
+                      <a href="#" class="dropdown-item">خروج</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+    </nav>
+<div class="container middle">
+  <div class="row elements" style="width: 90%">
+    <div class="col-sm-12 col-md-3 text-center">
+      <img src="images/icon/contacts_icon.png">
+      <h6 class="pt-2 text-light">مدیریت تماس ها</h6>
+    </div>
+    <div class="col-sm-12 col-md-3 text-center">
+      <img src="images/icon/notes_icon.png">
+      <h6 class="pt-2 text-light">مدیریت پیام ها</h6>
+    </div>
+    <div class="col-sm-12 col-md-3 text-center">
+      <img src="images/icon/pages_icon.png">
+      <h6 class="pt-2 text-light">مدیریت یادداشت ها</h6>
+    </div>
+    <div class="col-sm-12 col-md-3 text-center">
+      <img src="images/icon/settings_icon.png">
+      <h6 class="pt-2 text-light">تنظیمات</h6>
+    </div>
+  </div>
+</div>
+<!-- Scripts -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type='text/javascript' src='js/jquery.particleground.js'></script>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('particles'), {
+    dotColor: '#fff',
+    lineColor: '#fff'
+  });
+  var intro = document.getElementById('intro');
+  intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+}, false);
+
+</script>
+<!-- .Scripts -->
+
+</body>
+</html>
